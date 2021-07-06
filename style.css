@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-header{
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 100%;
+}
+.about-me .half-width img{
+    width: 50%;
+    margin-top: 20%;
+    
+}
+
+.my-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.about-me{
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+  
+}
+h2{
+    font-size: 40px;
+}
+
+.Item-area h2{
+    text-align: center;
+}
+.Item-area #text{
+    text-align: center;
+}
+
+.Item-area .card{
+    display: flex;
+}
+.Item-area .card .items{
+    
+        box-shadow: 5px 7px 40px rgb(185, 181, 181);
+        
+        border-radius: 10px;
+        padding: 20px;
+        margin: 40px;
+        
+        width: 80%;
+        
+}
+.Item-area .card .items img{
+   
+    width: 100%;
+    box-shadow: 5px 7px 40px rgb(185, 181, 181);
+    border-radius: 10px;
+    
+}
+.Item-area .follower{
+    display: flex;
+    box-shadow: 5px 7px 40px rgb(185, 181, 181);
+    border-radius: 10px;
+    margin: 40px;
+   
+}
+
+.Item-area .follower div{
+  
+    text-align: center;
+    
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    
+
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(5, 5, 37);
+    height:20%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+footer h3{
+    color: cornsilk;
+}
+h3 span{
+    color: rgb(228, 127, 33);
+}
+footer p{
+    color: rgb(194, 189, 189);
+}
